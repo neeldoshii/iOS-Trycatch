@@ -62,6 +62,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40f-DT-BKm">
+                                <rect key="frame" x="16" y="593" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -79,10 +82,12 @@
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="top" secondItem="ovJ-ud-LlF" secondAttribute="bottom" constant="37" id="ZgL-8k-v6e"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" id="aG1-33-iEb"/>
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="leading" secondItem="278-zW-ASC" secondAttribute="leading" id="aix-lq-RnC"/>
+                            <constraint firstItem="40f-DT-BKm" firstAttribute="leading" secondItem="cM0-u8-D5u" secondAttribute="leading" id="brn-p2-6v0"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="nhg-dd-75x" secondAttribute="leading" id="dKf-ip-g0V"/>
                             <constraint firstItem="cM0-u8-D5u" firstAttribute="top" secondItem="qBT-No-9Gn" secondAttribute="bottom" constant="19" id="ghg-v6-yNB"/>
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="top" secondItem="278-zW-ASC" secondAttribute="bottom" constant="20" id="ivg-zG-uSK"/>
                             <constraint firstItem="qBT-No-9Gn" firstAttribute="top" secondItem="9iz-u2-kJ5" secondAttribute="bottom" constant="23" id="moD-FK-SD4"/>
+                            <constraint firstItem="40f-DT-BKm" firstAttribute="top" secondItem="cM0-u8-D5u" secondAttribute="bottom" constant="50" id="odk-tg-vJH"/>
                         </constraints>
                     </view>
                 </viewController>
