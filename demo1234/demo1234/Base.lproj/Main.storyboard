@@ -30,11 +30,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovJ-ud-LlF">
                                 <rect key="frame" x="157" y="246" width="46" height="30"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-qH-YX0">
-                                <rect key="frame" x="246" y="246" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-qH-YX0">
+                                <rect key="frame" x="246" y="251" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,7 +47,9 @@
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="top" secondItem="278-zW-ASC" secondAttribute="bottom" constant="20" id="SKg-Vs-SfZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" constant="16" id="Y9E-ue-7VG"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" id="aG1-33-iEb"/>
+                            <constraint firstItem="rKu-qH-YX0" firstAttribute="centerY" secondItem="ovJ-ud-LlF" secondAttribute="centerY" id="bY5-if-N7Q"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="nhg-dd-75x" secondAttribute="leading" id="dKf-ip-g0V"/>
+                            <constraint firstItem="rKu-qH-YX0" firstAttribute="leading" secondItem="ovJ-ud-LlF" secondAttribute="trailing" constant="43" id="nZr-XI-v4p"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -59,6 +61,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
