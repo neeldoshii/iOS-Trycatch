@@ -36,20 +36,29 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-qH-YX0">
                                 <rect key="frame" x="246" y="251" width="20" height="20"/>
                             </activityIndicatorView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9iz-u2-kJ5">
+                                <rect key="frame" x="16" y="313" width="396" height="34"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="ovJ-ud-LlF" secondAttribute="trailing" constant="-187" id="1ny-ef-hwP"/>
                             <constraint firstItem="nhg-dd-75x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5xc-rs-s7k"/>
+                            <constraint firstItem="9iz-u2-kJ5" firstAttribute="trailing" secondItem="278-zW-ASC" secondAttribute="trailing" id="BHe-Bt-2kw"/>
                             <constraint firstItem="nhg-dd-75x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Fxr-QV-NbE"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="top" secondItem="nhg-dd-75x" secondAttribute="bottom" constant="100" id="H76-HN-BSf"/>
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="top" secondItem="278-zW-ASC" secondAttribute="bottom" constant="20" id="SKg-Vs-SfZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" constant="16" id="Y9E-ue-7VG"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" id="aG1-33-iEb"/>
+                            <constraint firstItem="9iz-u2-kJ5" firstAttribute="leading" secondItem="278-zW-ASC" secondAttribute="leading" id="aix-lq-RnC"/>
                             <constraint firstItem="rKu-qH-YX0" firstAttribute="centerY" secondItem="ovJ-ud-LlF" secondAttribute="centerY" id="bY5-if-N7Q"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="nhg-dd-75x" secondAttribute="leading" id="dKf-ip-g0V"/>
                             <constraint firstItem="rKu-qH-YX0" firstAttribute="leading" secondItem="ovJ-ud-LlF" secondAttribute="trailing" constant="43" id="nZr-XI-v4p"/>
+                            <constraint firstItem="9iz-u2-kJ5" firstAttribute="top" secondItem="ovJ-ud-LlF" secondAttribute="bottom" constant="37" id="zGk-v2-FOv"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -59,6 +68,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
