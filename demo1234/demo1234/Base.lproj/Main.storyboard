@@ -65,25 +65,44 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40f-DT-BKm">
                                 <rect key="frame" x="16" y="593" width="51" height="31"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I74-jx-4Cv">
+                                <rect key="frame" x="81" y="598" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="upc-Gz-FxL">
+                                <rect key="frame" x="318" y="592.66666666666663" width="94" height="32"/>
+                            </stepper>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AxH-16-jDB">
+                                <rect key="frame" x="14" y="669" width="400" height="31"/>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="upc-Gz-FxL" firstAttribute="trailing" secondItem="cM0-u8-D5u" secondAttribute="trailing" id="2uW-QA-jQL"/>
                             <constraint firstItem="cM0-u8-D5u" firstAttribute="leading" secondItem="qBT-No-9Gn" secondAttribute="leading" id="5qV-M8-nJz"/>
                             <constraint firstItem="nhg-dd-75x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5xc-rs-s7k"/>
+                            <constraint firstItem="AxH-16-jDB" firstAttribute="leading" secondItem="40f-DT-BKm" secondAttribute="leading" id="8YM-ti-nVZ"/>
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="trailing" secondItem="278-zW-ASC" secondAttribute="trailing" id="BHe-Bt-2kw"/>
                             <constraint firstItem="cM0-u8-D5u" firstAttribute="trailing" secondItem="qBT-No-9Gn" secondAttribute="trailing" id="DCQ-92-9E6"/>
+                            <constraint firstItem="I74-jx-4Cv" firstAttribute="centerY" secondItem="40f-DT-BKm" secondAttribute="centerY" id="F2L-Qv-U0B"/>
                             <constraint firstItem="nhg-dd-75x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Fxr-QV-NbE"/>
+                            <constraint firstItem="AxH-16-jDB" firstAttribute="top" secondItem="I74-jx-4Cv" secondAttribute="bottom" constant="50" id="H27-rn-wSz"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="top" secondItem="nhg-dd-75x" secondAttribute="bottom" constant="100" id="H76-HN-BSf"/>
+                            <constraint firstItem="AxH-16-jDB" firstAttribute="trailing" secondItem="upc-Gz-FxL" secondAttribute="trailing" id="KKW-v1-LKS"/>
                             <constraint firstItem="qBT-No-9Gn" firstAttribute="leading" secondItem="9iz-u2-kJ5" secondAttribute="leading" id="OFp-EZ-O1n"/>
                             <constraint firstItem="qBT-No-9Gn" firstAttribute="trailing" secondItem="9iz-u2-kJ5" secondAttribute="trailing" id="RYd-jj-8AT"/>
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="centerX" secondItem="278-zW-ASC" secondAttribute="centerX" id="XL2-d4-38j"/>
+                            <constraint firstItem="upc-Gz-FxL" firstAttribute="centerY" secondItem="40f-DT-BKm" secondAttribute="centerY" id="XOq-dO-GAG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" constant="16" id="Y9E-ue-7VG"/>
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="top" secondItem="ovJ-ud-LlF" secondAttribute="bottom" constant="37" id="ZgL-8k-v6e"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" id="aG1-33-iEb"/>
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="leading" secondItem="278-zW-ASC" secondAttribute="leading" id="aix-lq-RnC"/>
                             <constraint firstItem="40f-DT-BKm" firstAttribute="leading" secondItem="cM0-u8-D5u" secondAttribute="leading" id="brn-p2-6v0"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="nhg-dd-75x" secondAttribute="leading" id="dKf-ip-g0V"/>
+                            <constraint firstItem="I74-jx-4Cv" firstAttribute="leading" secondItem="40f-DT-BKm" secondAttribute="trailing" constant="16" id="dqK-mn-UhB"/>
                             <constraint firstItem="cM0-u8-D5u" firstAttribute="top" secondItem="qBT-No-9Gn" secondAttribute="bottom" constant="19" id="ghg-v6-yNB"/>
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="top" secondItem="278-zW-ASC" secondAttribute="bottom" constant="20" id="ivg-zG-uSK"/>
                             <constraint firstItem="qBT-No-9Gn" firstAttribute="top" secondItem="9iz-u2-kJ5" secondAttribute="bottom" constant="23" id="moD-FK-SD4"/>
