@@ -125,24 +125,44 @@
                                 <color key="textColor" name="Neutral-Grey"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uv3-ja-VT2">
+                                <rect key="frame" x="16" y="600" width="382" height="49"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook" translatesAutoresizingMaskIntoConstraints="NO" id="xcl-aV-7Sc">
+                                        <rect key="frame" x="20" y="12" width="24" height="25"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Login with facebook" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oO6-Tj-mei">
+                                        <rect key="frame" x="60" y="15.5" width="128" height="18"/>
+                                        <color key="textColor" name="Neutral-Grey"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="du4-XQ-wbR"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="xcl-aV-7Sc" firstAttribute="leading" secondItem="du4-XQ-wbR" secondAttribute="leading" constant="20" id="CS4-Pa-HYv"/>
+                                    <constraint firstItem="xcl-aV-7Sc" firstAttribute="centerY" secondItem="du4-XQ-wbR" secondAttribute="centerY" id="MOG-Et-6mL"/>
+                                    <constraint firstItem="oO6-Tj-mei" firstAttribute="centerY" secondItem="xcl-aV-7Sc" secondAttribute="centerY" id="OlV-xy-EaO"/>
+                                    <constraint firstItem="xcl-aV-7Sc" firstAttribute="top" secondItem="du4-XQ-wbR" secondAttribute="top" constant="12" id="Y41-8C-FtP"/>
+                                    <constraint firstItem="oO6-Tj-mei" firstAttribute="leading" secondItem="xcl-aV-7Sc" secondAttribute="leading" constant="40" id="dZx-Xg-I9c"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-py-rAA">
+                                <rect key="frame" x="186" y="677" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkW-6x-BLs">
-                                <rect key="frame" x="16" y="544" width="382" height="48"/>
+                                <rect key="frame" x="16" y="543" width="382" height="49"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Google" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-82-Zot">
-                                        <rect key="frame" x="20" y="12" width="24" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="24" id="NcY-4Q-Xfu"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="OqD-SP-m6f"/>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="24" id="RyV-YK-keE"/>
-                                            <constraint firstAttribute="height" constant="24" id="SHg-1Z-Idb"/>
-                                            <constraint firstAttribute="width" constant="24" id="nwU-Lf-7Ov"/>
-                                        </constraints>
+                                        <rect key="frame" x="20" y="12" width="24" height="25"/>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Login with Google" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="43P-wj-SZC">
-                                        <rect key="frame" x="60" y="7" width="145.5" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="Csg-uj-bc6"/>
-                                        </constraints>
+                                        <rect key="frame" x="60" y="15.5" width="114" height="18"/>
                                         <color key="textColor" name="Neutral-Grey"/>
                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -151,28 +171,29 @@
                                 <viewLayoutGuide key="safeArea" id="YSe-ru-okf"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="MiK-82-Zot" firstAttribute="centerY" secondItem="YSe-ru-okf" secondAttribute="centerY" id="5TZ-5l-EQF"/>
-                                    <constraint firstItem="43P-wj-SZC" firstAttribute="leading" secondItem="YSe-ru-okf" secondAttribute="leading" constant="60" id="LRS-q9-uag"/>
-                                    <constraint firstItem="43P-wj-SZC" firstAttribute="top" secondItem="YSe-ru-okf" secondAttribute="top" constant="7" id="Uft-NA-C2q"/>
-                                    <constraint firstItem="YSe-ru-okf" firstAttribute="bottom" secondItem="43P-wj-SZC" secondAttribute="bottom" constant="7" id="cCL-VQ-Utl"/>
-                                    <constraint firstItem="43P-wj-SZC" firstAttribute="centerY" secondItem="YSe-ru-okf" secondAttribute="centerY" id="hsq-zL-0h2"/>
-                                    <constraint firstItem="YSe-ru-okf" firstAttribute="trailing" secondItem="43P-wj-SZC" secondAttribute="trailing" constant="176.5" id="urT-ky-g2f"/>
-                                    <constraint firstItem="MiK-82-Zot" firstAttribute="leading" secondItem="YSe-ru-okf" secondAttribute="leading" constant="20" id="xQG-th-vku"/>
+                                    <constraint firstItem="43P-wj-SZC" firstAttribute="centerY" secondItem="MiK-82-Zot" secondAttribute="centerY" id="8Lt-Wt-slw"/>
+                                    <constraint firstItem="MiK-82-Zot" firstAttribute="leading" secondItem="YSe-ru-okf" secondAttribute="leading" constant="20" id="L1b-Hz-mpH"/>
+                                    <constraint firstItem="MiK-82-Zot" firstAttribute="top" secondItem="YSe-ru-okf" secondAttribute="top" constant="12" id="Msf-Ei-xDC"/>
+                                    <constraint firstItem="MiK-82-Zot" firstAttribute="centerY" secondItem="YSe-ru-okf" secondAttribute="centerY" id="RVd-l4-fF8"/>
+                                    <constraint firstItem="43P-wj-SZC" firstAttribute="centerY" secondItem="YSe-ru-okf" secondAttribute="centerY" id="c5I-bm-LHE"/>
+                                    <constraint firstItem="43P-wj-SZC" firstAttribute="leading" secondItem="MiK-82-Zot" secondAttribute="leading" constant="40" id="ymi-tk-zCb"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xkW-6x-BLs" firstAttribute="top" secondItem="lYG-RN-kfp" secondAttribute="bottom" constant="17" id="233-3p-nxL"/>
                             <constraint firstItem="7hG-2T-qWr" firstAttribute="top" secondItem="J7w-b4-0gx" secondAttribute="bottom" constant="16" id="2Zo-Qy-Vbg"/>
                             <constraint firstItem="FeK-QU-ZfI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2uy-Mi-Abw"/>
+                            <constraint firstItem="uv3-ja-VT2" firstAttribute="centerX" secondItem="xkW-6x-BLs" secondAttribute="centerX" id="9qW-lW-oav"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FeK-QU-ZfI" secondAttribute="trailing" constant="16" id="9yR-SH-lrZ"/>
+                            <constraint firstItem="uv3-ja-VT2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AMn-MW-5Tq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uv3-ja-VT2" secondAttribute="trailing" constant="16" id="AtF-Dw-oxu"/>
+                            <constraint firstItem="uv3-ja-VT2" firstAttribute="top" secondItem="xkW-6x-BLs" secondAttribute="bottom" constant="8" id="FRe-EU-N5W"/>
                             <constraint firstItem="aCq-dR-THo" firstAttribute="top" secondItem="7hG-2T-qWr" secondAttribute="bottom" constant="8" id="FT0-Ow-Woz"/>
-                            <constraint firstItem="xkW-6x-BLs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hvf-Wj-Vxh"/>
                             <constraint firstItem="VcB-km-tBL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MQr-H7-Sa9"/>
+                            <constraint firstItem="xkW-6x-BLs" firstAttribute="top" secondItem="lYG-RN-kfp" secondAttribute="bottom" constant="16" id="MYo-eL-wJ7"/>
                             <constraint firstItem="lYG-RN-kfp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qmf-BS-ny1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xkW-6x-BLs" secondAttribute="trailing" constant="16" id="Vto-L9-6Sf"/>
                             <constraint firstItem="FeK-QU-ZfI" firstAttribute="top" secondItem="aCq-dR-THo" secondAttribute="bottom" constant="28" id="WCG-g1-A5u"/>
                             <constraint firstItem="J7w-b4-0gx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="X7l-cO-LQo"/>
                             <constraint firstItem="J7w-b4-0gx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aNc-fn-GCf"/>
@@ -180,14 +201,17 @@
                             <constraint firstItem="Ju2-ZP-3jg" firstAttribute="top" secondItem="FeK-QU-ZfI" secondAttribute="bottom" constant="8" id="fIc-l1-lpe"/>
                             <constraint firstItem="lYG-RN-kfp" firstAttribute="top" secondItem="VcB-km-tBL" secondAttribute="bottom" constant="25" id="fRn-jS-P3f"/>
                             <constraint firstItem="VcB-km-tBL" firstAttribute="top" secondItem="Ju2-ZP-3jg" secondAttribute="bottom" constant="16" id="fax-0v-zcP"/>
+                            <constraint firstItem="xkW-6x-BLs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gz9-aU-EJW"/>
                             <constraint firstItem="7hG-2T-qWr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hTP-af-XTs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ju2-ZP-3jg" secondAttribute="trailing" constant="16" id="nb8-3z-rPv"/>
+                            <constraint firstItem="xkW-6x-BLs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qLx-HT-0pJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xkW-6x-BLs" secondAttribute="trailing" constant="16" id="rF0-ZE-vVA"/>
                             <constraint firstItem="Ju2-ZP-3jg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tFd-QL-2QJ"/>
                             <constraint firstItem="aCq-dR-THo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xf7-Jm-Spn"/>
-                            <constraint firstItem="xkW-6x-BLs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zV6-rM-r2u"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FacebookTextFieldView" destination="uv3-ja-VT2" id="u1L-UF-cGW"/>
                         <outlet property="GoogleTextFieldView" destination="xkW-6x-BLs" id="Sgj-df-Rx9"/>
                         <outlet property="PasswordTextFieldView" destination="Ju2-ZP-3jg" id="Pmg-CM-qmk"/>
                         <outlet property="textFieldView" destination="FeK-QU-ZfI" id="d7v-tl-mc4"/>
@@ -200,6 +224,7 @@
     </scenes>
     <resources>
         <image name="Blue Logo" width="96" height="96"/>
+        <image name="Facebook" width="24" height="25"/>
         <image name="Google" width="24" height="25"/>
         <image name="Message" width="24" height="24"/>
         <image name="Password" width="24" height="24"/>

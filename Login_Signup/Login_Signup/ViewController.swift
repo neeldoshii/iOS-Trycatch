@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var PasswordTextFieldView: UIView!
     
     @IBOutlet weak var GoogleTextFieldView: UIView!
+    @IBOutlet weak var FacebookTextFieldView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,7 +27,9 @@ class ViewController: UIViewController {
         GoogleTextFieldView.layer.cornerRadius = 8
         GoogleTextFieldView.layer.borderWidth = 1
         GoogleTextFieldView.layer.borderColor = UIColor.lightGray.cgColor
-       
+        FacebookTextFieldView.layer.cornerRadius = 8
+        FacebookTextFieldView.layer.borderWidth = 1
+        FacebookTextFieldView.layer.borderColor = UIColor.lightGray.cgColor
         
     }
 
