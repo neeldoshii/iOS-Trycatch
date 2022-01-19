@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Login_Signup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue Logo" translatesAutoresizingMaskIntoConstraints="NO" id="J7w-b4-0gx">
+                                <rect key="frame" x="171" y="158" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="JqX-EQ-4QT"/>
+                                    <constraint firstAttribute="height" constant="72" id="rGS-cg-n86"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Lafyuu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hG-2T-qWr">
+                                <rect key="frame" x="138" y="246" width="138" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                <color key="textColor" name="DarkBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in to continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCq-dR-THo">
+                                <rect key="frame" x="157.5" y="273" width="99" height="15"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" name="Neutral-Grey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FeK-QU-ZfI">
+                                <rect key="frame" x="16" y="316" width="382" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Message" translatesAutoresizingMaskIntoConstraints="NO" id="UHl-vL-MIy">
+                                        <rect key="frame" x="20" y="12" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="LIo-0F-WFT"/>
+                                            <constraint firstAttribute="height" constant="24" id="ONm-CC-2KQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wHr-hU-wXm">
+                                        <rect key="frame" x="60" y="7" width="306" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="3u9-IX-yYZ"/>
+                                        </constraints>
+                                        <color key="textColor" name="Neutral-Grey"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="UHl-vL-MIy" firstAttribute="centerY" secondItem="FeK-QU-ZfI" secondAttribute="centerY" id="3p8-Oi-i4u"/>
+                                    <constraint firstItem="wHr-hU-wXm" firstAttribute="centerY" secondItem="FeK-QU-ZfI" secondAttribute="centerY" id="E1V-6H-ZmX"/>
+                                    <constraint firstItem="wHr-hU-wXm" firstAttribute="leading" secondItem="UHl-vL-MIy" secondAttribute="trailing" constant="16" id="Vz2-kl-BCn"/>
+                                    <constraint firstAttribute="height" constant="48" id="Z4h-J3-guH"/>
+                                    <constraint firstAttribute="trailing" secondItem="wHr-hU-wXm" secondAttribute="trailing" constant="16" id="dyb-uU-mwJ"/>
+                                    <constraint firstItem="UHl-vL-MIy" firstAttribute="leading" secondItem="FeK-QU-ZfI" secondAttribute="leading" constant="20" id="pwN-OZ-eni"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ju2-ZP-3jg">
+                                <rect key="frame" x="16" y="372" width="382" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="sTY-du-Crn">
+                                        <rect key="frame" x="20" y="12" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="8f9-ur-qDd"/>
+                                            <constraint firstAttribute="width" constant="24" id="d9L-kI-Evb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eob-Rx-Fhl">
+                                        <rect key="frame" x="60" y="7" width="306" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="ZT5-Z3-OUb"/>
+                                        </constraints>
+                                        <color key="textColor" name="Neutral-Grey"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Eob-Rx-Fhl" secondAttribute="trailing" constant="16" id="1mY-nN-vZg"/>
+                                    <constraint firstAttribute="height" constant="48" id="CJg-p0-z6P"/>
+                                    <constraint firstItem="sTY-du-Crn" firstAttribute="leading" secondItem="Ju2-ZP-3jg" secondAttribute="leading" constant="20" id="FAt-zk-xab"/>
+                                    <constraint firstItem="Eob-Rx-Fhl" firstAttribute="leading" secondItem="sTY-du-Crn" secondAttribute="trailing" constant="16" id="U9l-n2-Ln8"/>
+                                    <constraint firstItem="Eob-Rx-Fhl" firstAttribute="centerY" secondItem="Ju2-ZP-3jg" secondAttribute="centerY" id="cG8-TQ-x3T"/>
+                                    <constraint firstItem="sTY-du-Crn" firstAttribute="centerY" secondItem="Ju2-ZP-3jg" secondAttribute="centerY" id="oZE-I0-5A6"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcB-km-tBL">
+                                <rect key="frame" x="16" y="432" width="382" height="49"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign In" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                    <color key="baseBackgroundColor" name="PrimaryBlue"/>
+                                </buttonConfiguration>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVP-eJ-cvn">
+                                <rect key="frame" x="-5" y="33" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Login" id="IKc-b6-wWP"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYG-RN-kfp">
+                                <rect key="frame" x="197.5" y="506" width="19" height="17"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                <color key="textColor" name="Neutral-Grey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7hG-2T-qWr" firstAttribute="top" secondItem="J7w-b4-0gx" secondAttribute="bottom" constant="16" id="2Zo-Qy-Vbg"/>
+                            <constraint firstItem="FeK-QU-ZfI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2uy-Mi-Abw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FeK-QU-ZfI" secondAttribute="trailing" constant="16" id="9yR-SH-lrZ"/>
+                            <constraint firstItem="aCq-dR-THo" firstAttribute="top" secondItem="7hG-2T-qWr" secondAttribute="bottom" constant="8" id="FT0-Ow-Woz"/>
+                            <constraint firstItem="VcB-km-tBL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MQr-H7-Sa9"/>
+                            <constraint firstItem="lYG-RN-kfp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qmf-BS-ny1"/>
+                            <constraint firstItem="FeK-QU-ZfI" firstAttribute="top" secondItem="aCq-dR-THo" secondAttribute="bottom" constant="28" id="WCG-g1-A5u"/>
+                            <constraint firstItem="J7w-b4-0gx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="X7l-cO-LQo"/>
+                            <constraint firstItem="J7w-b4-0gx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aNc-fn-GCf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VcB-km-tBL" secondAttribute="trailing" constant="16" id="dhU-9y-nXO"/>
+                            <constraint firstItem="Ju2-ZP-3jg" firstAttribute="top" secondItem="FeK-QU-ZfI" secondAttribute="bottom" constant="8" id="fIc-l1-lpe"/>
+                            <constraint firstItem="lYG-RN-kfp" firstAttribute="top" secondItem="VcB-km-tBL" secondAttribute="bottom" constant="25" id="fRn-jS-P3f"/>
+                            <constraint firstItem="VcB-km-tBL" firstAttribute="top" secondItem="Ju2-ZP-3jg" secondAttribute="bottom" constant="12" id="fax-0v-zcP"/>
+                            <constraint firstItem="7hG-2T-qWr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hTP-af-XTs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ju2-ZP-3jg" secondAttribute="trailing" constant="16" id="nb8-3z-rPv"/>
+                            <constraint firstItem="Ju2-ZP-3jg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tFd-QL-2QJ"/>
+                            <constraint firstItem="aCq-dR-THo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xf7-Jm-Spn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PasswordTextFieldView" destination="Ju2-ZP-3jg" id="Pmg-CM-qmk"/>
+                        <outlet property="textFieldView" destination="FeK-QU-ZfI" id="d7v-tl-mc4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blue Logo" width="96" height="96"/>
+        <image name="Message" width="24" height="24"/>
+        <image name="Password" width="24" height="24"/>
+        <namedColor name="DarkBlue">
+            <color red="0.13300000131130219" green="0.19599999487400055" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Neutral-Grey">
+            <color red="0.56499999761581421" green="0.59600001573562622" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="PrimaryBlue">
+            <color red="0.25099998712539673" green="0.74900001287460327" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

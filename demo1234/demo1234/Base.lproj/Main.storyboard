@@ -34,9 +34,8 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-qH-YX0">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-qH-YX0">
                                 <rect key="frame" x="246" y="251" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9iz-u2-kJ5">
                                 <rect key="frame" x="16" y="313" width="396" height="34"/>
@@ -125,6 +124,7 @@
                             <constraint firstItem="278-zW-ASC" firstAttribute="trailing" secondItem="nhg-dd-75x" secondAttribute="trailing" id="aG1-33-iEb"/>
                             <constraint firstItem="9iz-u2-kJ5" firstAttribute="leading" secondItem="278-zW-ASC" secondAttribute="leading" id="aix-lq-RnC"/>
                             <constraint firstItem="40f-DT-BKm" firstAttribute="leading" secondItem="cM0-u8-D5u" secondAttribute="leading" id="brn-p2-6v0"/>
+                            <constraint firstItem="rKu-qH-YX0" firstAttribute="leading" secondItem="ovJ-ud-LlF" secondAttribute="trailing" constant="9" id="d73-uO-mI3"/>
                             <constraint firstItem="278-zW-ASC" firstAttribute="leading" secondItem="nhg-dd-75x" secondAttribute="leading" id="dKf-ip-g0V"/>
                             <constraint firstItem="I74-jx-4Cv" firstAttribute="leading" secondItem="40f-DT-BKm" secondAttribute="trailing" constant="16" id="dqK-mn-UhB"/>
                             <constraint firstItem="AxH-16-jDB" firstAttribute="top" secondItem="Ihk-nH-2fk" secondAttribute="bottom" constant="8" symbolic="YES" id="eMj-Jn-KzB"/>
@@ -133,6 +133,7 @@
                             <constraint firstItem="ovJ-ud-LlF" firstAttribute="top" secondItem="278-zW-ASC" secondAttribute="bottom" constant="20" id="ivg-zG-uSK"/>
                             <constraint firstItem="qBT-No-9Gn" firstAttribute="top" secondItem="9iz-u2-kJ5" secondAttribute="bottom" constant="23" id="moD-FK-SD4"/>
                             <constraint firstItem="40f-DT-BKm" firstAttribute="top" secondItem="cM0-u8-D5u" secondAttribute="bottom" constant="50" id="odk-tg-vJH"/>
+                            <constraint firstItem="rKu-qH-YX0" firstAttribute="centerY" secondItem="ovJ-ud-LlF" secondAttribute="centerY" id="xaE-eM-rtD"/>
                         </constraints>
                     </view>
                 </viewController>
