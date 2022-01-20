@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         FacebookTextFieldView.layer.borderWidth = 1
         FacebookTextFieldView.layer.borderColor = UIColor.lightGray.cgColor
         
+        let color = UIColor(named: "Neutral-Grey")
+        textFieldView.layer.borderColor = color?.cgColor
+        
     }
 
 
