@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353B49EF279A1A0E003DA97B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353B49EE279A1A0E003DA97B /* SignUp.storyboard */; };
 		354FA1E2279759B000952BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FA1E1279759B000952BA3 /* AppDelegate.swift */; };
 		354FA1E4279759B000952BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FA1E3279759B000952BA3 /* SceneDelegate.swift */; };
 		354FA1E6279759B000952BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FA1E5279759B000952BA3 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353B49EE279A1A0E003DA97B /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		354FA1DE279759B000952BA3 /* Login_Signup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Signup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354FA1E1279759B000952BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		354FA1E3279759B000952BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				354FA1E3279759B000952BA3 /* SceneDelegate.swift */,
 				354FA1E5279759B000952BA3 /* ViewController.swift */,
 				354FA1E7279759B000952BA3 /* Main.storyboard */,
+				353B49EE279A1A0E003DA97B /* SignUp.storyboard */,
 				354FA1EA279759B400952BA3 /* Assets.xcassets */,
 				354FA1EC279759B400952BA3 /* LaunchScreen.storyboard */,
 				354FA1EF279759B400952BA3 /* Info.plist */,
@@ -180,6 +183,7 @@
 				35540B9127987D1200F7AF1A /* Roboto-Medium.ttf in Resources */,
 				354FA1EE279759B400952BA3 /* LaunchScreen.storyboard in Resources */,
 				35540B9A27987D1200F7AF1A /* Roboto-BlackItalic.ttf in Resources */,
+				353B49EF279A1A0E003DA97B /* SignUp.storyboard in Resources */,
 				35540B9C27987D1300F7AF1A /* Roboto-Thin.ttf in Resources */,
 				35540B9227987D1200F7AF1A /* Roboto-Light.ttf in Resources */,
 				35540B9527987D1200F7AF1A /* Roboto-ThinItalic.ttf in Resources */,
